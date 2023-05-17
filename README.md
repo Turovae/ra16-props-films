@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/efekpwjj5mym564r?svg=true)](https://ci.appveyor.com/project/Turovae/ra16-props-films)
+
+---
+
 Рейтинг фильмов
 ===
 
