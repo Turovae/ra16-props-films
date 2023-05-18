@@ -11,10 +11,6 @@ function Stars(props: StarsProp): JSX.Element | null {
     return null;
   }
 
-  // if (typeof count !== 'number') {
-  //   return null;
-  // }
-
   if (isNaN(count)) {
     return null;
   }
