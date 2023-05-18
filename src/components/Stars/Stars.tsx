@@ -2,7 +2,7 @@ import Star from "./Star/Star";
 import './Stars.css';
 
 interface StarsProp {
-  count: any;
+  count: number;
 }
 
 function Stars(props: StarsProp): JSX.Element | null {
@@ -11,9 +11,9 @@ function Stars(props: StarsProp): JSX.Element | null {
     return null;
   }
 
-  if (typeof count !== 'number') {
-    return null;
-  }
+  // if (typeof count !== 'number') {
+  //   return null;
+  // }
 
   if (isNaN(count)) {
     return null;
